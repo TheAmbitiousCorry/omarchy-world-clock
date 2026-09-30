@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "kr34t1v.world-clock",
+  "name": "World Clock",
+  "version": "1.0.0",
+  "author": "kr34t1v",
+  "description": "Multiple time zones in the bar, with a switch-and-add popup",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "World Clock",
+    "description": "Multiple time zones in the bar, with a switch-and-add popup",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
